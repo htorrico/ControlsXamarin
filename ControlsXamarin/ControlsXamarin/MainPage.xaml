@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsXamarin.MainPage">
+    <ScrollView>
+        <StackLayout>
+        
+        <Image Source="prueba.jpg" HeightRequest="250" HorizontalOptions="FillAndExpand"></Image>
+        <Label Text="Ingresar Nombres" FontSize="Large" TextColor="Black"></Label>
+        <Entry  Placeholder="Nombres"></Entry>
+        <Label Text="Ingresar Apellidos" FontSize="Large" TextColor="Black"></Label>
+        <Entry  Placeholder="Apellidos" FontSize="Large" TextColor="Black" ></Entry>
+        <Label Text="Ingresar Fecha Nacimiento" FontSize="Large" TextColor="Black"></Label>
+        <DatePicker ></DatePicker>
+        <Label Text="Ingresar Una Descripción" FontSize="Large" TextColor="Black"></Label>
+        <Editor Placeholder="Descripcion" HeightRequest="100"></Editor>
+        <StackLayout Orientation="Horizontal"  >
+            <Button Text="Grabar" HorizontalOptions="FillAndExpand"></Button>
+            <Button Text="Cancelar" HorizontalOptions="FillAndExpand"></Button>
+        </StackLayout>
+        
+        <!--<Button Text="Click Aquí" Clicked="Button_Clicked" ></Button>
+        <Label  x:Name="lblTest" Text="Mi Primer Label" BackgroundColor="Red" ></Label>-->
+        
+        <!--mmddyyy-->
+        <!--<Label  x:Name="lblTest2" Text="Seleccione Fecha de Nacimiento" ></Label>
+        <DatePicker  MaximumDate="01/10/2022" MinimumDate="01/01/2022" ></DatePicker>
+        <DatePicker x:Name="dtpTest" ></DatePicker>
+
+
+        <Editor Text="I'm a editor" HeightRequest="100"></Editor>-->
+        
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
